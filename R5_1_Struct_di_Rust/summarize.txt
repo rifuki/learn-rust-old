@@ -1,0 +1,19 @@
+Struct(structure) is a form of a data type in Rust that makes it possible to combine several simple data types into more complex data types (meaning groups).
+
+An attribute or field in struct does not need to depend on the order in which it exists.
+
+To define a struct using the "struct" keyword.
+
+In Rust, a struct is a blueprint or template that defines the structure and behavior of an object. Meanwhile, object or instance is a concret representation of the struct.
+
+Adding the mut keyword to a struct instance will make all its fields mutate.
+
+Struct types in Rust:
+1. Regular Struct: a data type that consists of several fields with different data types and are separated from each other.
+2. Tuple Struct: a data type similiar to a tuple, but has limited field names. The fields in tuple struct do not have names, only their positions are used.
+3. Unit Struct: a data type that has no fields at all.
+
+Destructuring is the process of decomopsing or disassembling complex data structures into individual components or simpler parts.
+
+Use #[derive(Debug)] to automatically provide implementation for the 'Debug' trait.
+

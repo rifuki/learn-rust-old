@@ -1,0 +1,24 @@
+A variable in Rust is immutable by default.
+
+Shadowing is declare variable with same name in the same scope.
+
+When declaring a constant using the "const" keyword, it is necessary to include a clear annotation type for that constant.
+
+In the Rust Programming Language there are 2 data types:
+1. Scalar Type is a data type that represents a single value.
+	integer, floating, boolean, character
+2. Compound Type is a data type that contains multiple values
+	- tupple: a collection of values of different data types, which are ordered and have a fixed length.
+	- array: a collection of values of the same data type, which are sorted and have a fixed length.
+3. Special Type:
+	- unit type (): represents a blank or nonexistent value
+
+
+In the Rust Language a function can be placed before or after the main function.
+
+Two common ways to comment in Rust code: 
+1. Inline comment //
+2. Blok comment /* */
+
+Control Flow is the sequence execution of statements or blocks of code based on the conditions applied. 
+	if, else if, else, loop, while, for

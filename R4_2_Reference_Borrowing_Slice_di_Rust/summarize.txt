@@ -1,0 +1,12 @@
+Reference is a way to refer or point to existing value or data without taking full ownership or transferring the data.
+
+Borrowing is process of borrowing or taking temporary loans ownership of value or data.
+
+Slice is data type used to represent reference or sequential chunks of elements in data types such array or string.
+
+Dereferencing is an operation performed on a Reference to access the value referenced by that reference.
+
+In Rust, there can only one be mutable reference (&mut T) at a time to same value in the same scope. This is part of Rust's borrowing rules.
+
+Dangling pointer is a pointer that points an invalid memory location.
+

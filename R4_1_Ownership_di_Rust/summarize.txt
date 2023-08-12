@@ -1,0 +1,3 @@
+Ownership is a set rules that govern how a rust program manages memory.
+Stack and heap are portions of memory availabe for program code to use at runtime.
+Each value in rust has a variable known as owner. Only one owner at a time, then when owner goes out of scope, the value will be dropped.

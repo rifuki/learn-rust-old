@@ -1,0 +1,2 @@
+Buffer refers to area of memory that is used to temporarily store data.
+Buffers are often used in context of I/O operations or data processing at the byte level.
